@@ -20,7 +20,7 @@ g++ -Wall -Werror src/main.cpp src/structs.cpp src/huffman.cpp -I include -o mai
 ./main key1.txt
 ```
 
-###Project Structure
+### Project Structure
 /bin - Contains compiled binaries.
 /include - Header files for the project.
 /src - Source files for the Huffman implementation and main application.
