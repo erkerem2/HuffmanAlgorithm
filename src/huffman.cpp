@@ -1,11 +1,7 @@
-//--- 2022-2023 Fall Semester Data Structure Assignment 2 ---//
 //--------------------------//
 //---Name & Surname: Kerem Er
-//---Student Number: 820210313
 //--------------------------//
 
-//-------------Do Not Add New Libraries-------------//
-//-------------All Libraries Needed Were Given-------------//
 #include <iostream>
 #include <stdio.h>
 #include <fstream>
@@ -17,12 +13,6 @@
 
 using namespace std;
 
-//-------------Complete The Functions Below-------------//
-
-//-----------------------------------------------------//
-//-----------Reads the key from text file--------------//
-//------------DO NOT CHANGE THIS FUNCTION--------------//
-//-----------------------------------------------------//
 void Huffman::readKey(const char* argv){
     ifstream readKeyFile;
     readKeyFile.open(argv);
@@ -36,10 +26,6 @@ void Huffman::readKey(const char* argv){
 };
 //-----------------------------------------------------//
 
-//-----------------------------------------------------//
-//---------Sorts the key in an alpabetic order---------//
-//------------DO NOT CHANGE THIS FUNCTION--------------//
-//-----------------------------------------------------//
 void Huffman::sortKey(){
     sortedKey = key;
     sort(sortedKey.begin(), sortedKey.end());
@@ -131,7 +117,6 @@ void Huffman::createHuffmanTree(){
 
 //-----------------------------------------------------//
 //---------------Prints the Huffman Tree---------------//
-//------------DO NOT CHANGE THIS FUNCTION--------------//
 //-----------------------------------------------------//
 void Huffman::printHuffmanTree(){
     huffmanTree.printTree(huffmanTree.root, 0);
@@ -192,7 +177,6 @@ void Huffman::encodePassword(string password){
 
 //-----------------------------------------------------//
 //-------------Prints the encoded password-------------//
-//------------DO NOT CHANGE THIS FUNCTION--------------//
 //-----------------------------------------------------//
 void Huffman::printEncodedPassword(){
     cout << "Encoded Password Binary: " << encodedBinaryPassword << endl;
@@ -261,7 +245,6 @@ void Huffman::decodeToken(string encodedToken){
 
 //-----------------------------------------------------//
 //-------------Prints the decoded password-------------//
-//------------DO NOT CHANGE THIS FUNCTION--------------//
 //-----------------------------------------------------//
 void Huffman::printDecodedPassword(){
     cout << "Decoded Password: " << decodedPassword << endl;
