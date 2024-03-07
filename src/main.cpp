@@ -1,11 +1,7 @@
-//--- 2022-2023 Fall Semester Data Structure Assignment 2 ---//
 //--------------------------//
 //---Name & Surname: Kerem Er
-//---Student Number: 820210313
 //--------------------------//
 
-//-------------Do Not Add New Libraries-------------//
-//-------------All Libraries Needed Were Given-------------//
 #include <iostream> 
 #include <stdio.h>
 
@@ -14,12 +10,8 @@
 
 using namespace std;
 
-//-------------Do Not Change This Function Definitions-------------//
 void mainMenu();
 //------------------------------------------------------------------//
-
-
-//-------------Do Not Change or Add Anything in Main-------------//
 int main(int argc, char* argv[]){
 	system("clear");
 
@@ -79,7 +71,6 @@ int main(int argc, char* argv[]){
     return EXIT_FAILURE;
 };
 
-//-------------Do Not Change This Function-------------//
 void mainMenu(){
     cout << endl;
     cout << "-------- Menu --------" << endl;
