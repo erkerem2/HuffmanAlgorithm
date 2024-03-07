@@ -1,21 +1,15 @@
-//--- 2022-2023 Fall Semester Data Structure Assignment 2 ---//
 //--------------------------//
 //---Name & Surname: Kerem Er
-//---Student Number: 820210313
 //--------------------------//
 
 #ifndef _structs
 #define _structs
 
-//-------------Do Not Add New Libraries-------------//
-//-------------All Libraries Needed Were Given-------------//
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
 
 using namespace std;
-
-//-------------Do Not Add New Class(es)-------------//
 
 //-------------Token Class To Store Character Info-------------//
 class Token{
