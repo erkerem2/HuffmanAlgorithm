@@ -1,11 +1,7 @@
-//--- 2022-2023 Fall Semester Data Structure Assignment 2 ---//
 //--------------------------//
 //---Name & Surname: Kerem Er
-//---Student Number: 820210313
 //--------------------------//
 
-//-------------Do Not Add New Libraries-------------//
-//-------------All Libraries Needed Were Given-------------//
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
@@ -14,8 +10,6 @@
 #include "structs.h"
 
 using namespace std;
-
-//-------------Complete The Functions Below-------------//
 
 //-------------Initialize Priority Queue-------------//
 PriorityQueue::PriorityQueue(){
@@ -87,7 +81,6 @@ Tree::~Tree(){
 //-------------Delete Tree From Memory-------------//
 void Tree::deleteTree(Node* node){      // K
     //-------------This Function Is Not Necessary-------------//
-    //-----------------Use It At Your Own Will----------------//
     /*if (root == NULL) { 
         return;
     }
